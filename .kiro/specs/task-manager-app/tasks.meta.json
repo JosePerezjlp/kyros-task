@@ -1,0 +1,624 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialise monorepo root with `package.json` (workspaces: `frontend`, `backend`), `.gitignore`, and root-level `.env.example` documenting `DATABASE_URL`, `JWT_SECRET`, `PORT`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` with placeholder values and descriptions": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997491801
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997500646
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997940117
+      }
+    ],
+    "1.2 Scaffold backend package (`/backend/package.json`, `tsconfig.json`, `nodemon`/`ts-node` dev setup)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997492839
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997504057
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997943861
+      }
+    ],
+    "1.3 Configure ESLint for the backend with layer-boundary rules": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997492967
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997507214
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997947913
+      }
+    ],
+    "1.4 Scaffold frontend package with Vite + React 18 + TypeScript + Tailwind CSS": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493029
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997510389
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997951274
+      }
+    ],
+    "2.1 Implement `envValidator.ts` and `server.ts` entry point": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493081
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997954959
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998362090
+      }
+    ],
+    "2.2 Implement `app.ts` Express app factory with middleware registration order": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493135
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997958124
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998365626
+      }
+    ],
+    "2.3 Implement `AppError.ts` custom error class": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493189
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997961537
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998368816
+      }
+    ],
+    "2.4 Implement `error.middleware.ts` centralised error handler": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493246
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997964837
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998372208
+      }
+    ],
+    "2.5 Implement `notFound.middleware.ts` catch-all 404 handler": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493325
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997969415
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998375651
+      }
+    ],
+    "2.6 Implement health endpoint `GET /api/health`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493374
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997972824
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998378904
+      }
+    ],
+    "3.1 Write Prisma schema (`backend/prisma/schema.prisma`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493424
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998382697
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791999290921
+      }
+    ],
+    "3.2 Generate initial Prisma migration and run it": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493498
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791999612149
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001621795
+      }
+    ],
+    "3.3 Implement seed script (`backend/prisma/seed.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493566
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792000825721
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001625418
+      }
+    ],
+    "4.1 Implement `jwt.ts` sign/verify helpers": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493631
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998385836
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791999294408
+      }
+    ],
+    "4.2 Implement `bcrypt.ts` hash/compare helpers": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493683
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998389083
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791999599419
+      }
+    ],
+    "5.1 Define Zod schemas for auth (`backend/src/schemas/auth.schema.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493736
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792000829398
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001629164
+      }
+    ],
+    "5.2 Implement `user.repository.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493786
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001652118
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001714016
+      }
+    ],
+    "5.3 Implement `auth.service.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493843
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001718811
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001797161
+      }
+    ],
+    "5.4 Implement `auth.controller.ts` and auth routes (`backend/src/routes/auth.routes.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493895
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001800939
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001893423
+      }
+    ],
+    "5.5 Implement `auth.middleware.ts` JWT validation middleware": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997493949
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792000832851
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001633384
+      }
+    ],
+    "5.6 Implement `role.middleware.ts` ADMIN guard": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494001
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792000836361
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001637177
+      }
+    ],
+    "5.7 Implement `validate.middleware.ts` Zod validation middleware": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494053
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792000839863
+      },
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001640580
+      }
+    ],
+    "6. Checkpoint — backend scaffold and auth": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494105
+      }
+    ],
+    "7.1 Implement `category.repository.ts` and `priority.repository.ts` (findAll, findById, create, update, delete, countTasksUsing)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494155
+      }
+    ],
+    "7.2 Implement lookup routes (`GET /api/categories`, `GET /api/priorities`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494204
+      }
+    ],
+    "8.1 Define Zod schemas for tasks (`backend/src/schemas/task.schema.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494254
+      }
+    ],
+    "8.2 Implement `task.repository.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494308
+      }
+    ],
+    "8.3 Implement `task.service.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494367
+      }
+    ],
+    "8.4 Implement `task.controller.ts` and task routes (`backend/src/routes/task.routes.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494418
+      }
+    ],
+    "9.1 Implement `report.repository.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494472
+      }
+    ],
+    "9.2 Implement `report.service.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494535
+      }
+    ],
+    "9.3 Implement `report.controller.ts` and report route (`GET /api/reports`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494587
+      }
+    ],
+    "10.1 Define Zod schemas for maintenance (`backend/src/schemas/maintenance.schema.ts`)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494656
+      }
+    ],
+    "10.2 Implement `maintenance.service.ts`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494796
+      }
+    ],
+    "10.3 Implement `maintenance.controller.ts` and admin routes": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494847
+      }
+    ],
+    "11. Checkpoint — full backend API": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494899
+      }
+    ],
+    "12.1 Set up React Router v6 with `App.tsx`, `ProtectedRoute` wrapper, and page routes": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997494961
+      }
+    ],
+    "12.2 Implement `AuthContext.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495016
+      }
+    ],
+    "12.3 Implement `api.ts` Axios instance with interceptors": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495073
+      }
+    ],
+    "13.1 Implement `LoginPage.tsx` and `RegisterPage.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495136
+      }
+    ],
+    "13.2 Implement `Navbar.tsx` with role-based Mantenimiento link": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495192
+      }
+    ],
+    "13.3 Implement `Notification.tsx` toast component": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495246
+      }
+    ],
+    "13.4 Implement `lookup.service.ts` and seed dropdowns into context or local state": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495316
+      }
+    ],
+    "13.5 Implement `TaskForm.tsx` (create and edit mode)": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495377
+      }
+    ],
+    "13.6 Implement `ConfirmDialog.tsx` delete confirmation modal": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495433
+      }
+    ],
+    "13.7 Implement `TaskCard.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495485
+      }
+    ],
+    "13.8 Implement `FilterBar.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495540
+      }
+    ],
+    "13.9 Implement `TaskListPage.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495596
+      }
+    ],
+    "13.10 Implement report components and `ReportsPage.tsx`": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495649
+      }
+    ],
+    "13.11 Implement `MaintenancePage.tsx` with category and priority management": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495702
+      }
+    ],
+    "14. Checkpoint — full-stack integration": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495753
+      }
+    ],
+    "16.1 Write `README.md` at repository root": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997495814
+      }
+    ],
+    "1. Project scaffold and shared tooling": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791997951334
+      }
+    ],
+    "2. Backend infrastructure — Express app, middlewares, health endpoint": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791998378987
+      }
+    ],
+    "4. Shared backend utilities and JWT/bcrypt helpers": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1791999599541
+      }
+    ],
+    "3. Prisma setup — schema, migration, seed": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001625499
+      }
+    ],
+    "5. Auth module — register, login, JWT middleware, role middleware": [
+      {
+        "executionId": "14ec7e1d-28eb-4ee9-b766-844fab1d36ba",
+        "chatSessionId": "sess_a0aa73e9-b965-4a4c-8434-0c596950ebcb",
+        "timestamp": 1792001893497
+      }
+    ]
+  }
+}
