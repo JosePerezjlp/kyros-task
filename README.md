@@ -5,6 +5,14 @@ Aplicación full stack de gestión de tareas (To-Do) con arquitectura en capas, 
 - **URL en producción:** https://d2zifhbm8ulr4.cloudfront.net
 - **Cuenta de prueba:** regístrate desde la propia app. El usuario ADMIN, que da acceso a Mantenimiento, lo crea el seed; sus credenciales se entregan aparte.
 
+## Videos de la entrega
+
+| Video | Enlace |
+|---|---|
+| Video 1: Demo en producción (parte 1) | [Ver en Google Drive](https://drive.google.com/file/d/1YzhXITFaF0Wu4rFj-Sl3AF5XYreFqCbO/view?usp=drive_link) |
+| Video 1: Demo en producción (parte 2) | [Ver en Google Drive](https://drive.google.com/file/d/1ci50Gsk-ejoMbkqatqlVkjL1aSyRZATe/view?usp=drive_link) |
+| Video 2: Código, arquitectura y uso de Kiro | [Ver en Google Drive](https://drive.google.com/file/d/130WrcSgD40oVs0RWS0dZQ_DmOOE9NA2G/view?usp=drive_link) |
+
 ## Funcionalidades
 
 | Requisito de la prueba | Implementación |
